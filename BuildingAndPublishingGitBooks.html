@@ -1,0 +1,353 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Building & Publishing GitBooks · Teaching (with) Git</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="GitHubCurriculumExamples.html" />
+    
+    
+    <link rel="prev" href="YourOwnRepository.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Teaching (with) Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="YourOwnRepository.html">
+            
+                <a href="YourOwnRepository.html">
+            
+                    
+                    Your Own Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="BuildingAndPublishingGitBooks.html">
+            
+                <a href="BuildingAndPublishingGitBooks.html">
+            
+                    
+                    Building & Publishing GitBooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="GitHubCurriculumExamples.html">
+            
+                <a href="GitHubCurriculumExamples.html">
+            
+                    
+                    GitHub Curriculum Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="LearningGit.html">
+            
+                <a href="LearningGit.html">
+            
+                    
+                    Learning Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="TeachingGit.html">
+            
+                <a href="TeachingGit.html">
+            
+                    
+                    Teaching Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Building & Publishing GitBooks</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="activity-building--publishing-gitbooks">Activity: Building &amp; Publishing GitBooks</h1>
+<p>In this activity, turn your lesson plan GitHub repository into a full-fledged student-facing website! Make sure you already have <a href="YourOwnRepository.html">your own repository</a> before you get started.</p>
+<h3 id="lesson-plan-template-example">Lesson Plan Template Example</h3>
+<p>The template from before already has its own live GitBook, built from its source!</p>
+<ul>
+<li>Template Repository: <a href="https://github.com/hylandtechoutreach/lesson-plan-template" target="_blank">https://github.com/hylandtechoutreach/lesson-plan-template</a></li>
+<li>Live GitBook: <a href="https://hylandtechoutreach.github.io/lesson-plan-template/" target="_blank">https://hylandtechoutreach.github.io/lesson-plan-template/</a></li>
+</ul>
+<p>Using this template will make it easy to get your own GitBook up and running quickly.</p>
+<h3 id="github-action-configuration">GitHub Action Configuration</h3>
+<p>This process is made possible by the <a href="https://github.com/hylandtechoutreach/lesson-plan-template/blob/main/.github/workflows/BuildGitBook.yml" target="_blank"><strong>.github/workflows/BuildGitBook.yml</strong> file</a> from the template. That file, with that specific format in that specific location, automatically adds a GitHub Action to the repository. The action:</p>
+<ul>
+<li>runs on every <code>push</code> event</li>
+<li><strong>if</strong> the <code>main</code> branch received the push</li>
+<li>grabs the latest code</li>
+<li>runs the <code>tuliren/publish-gitbook@v1.0.0</code> action</li>
+</ul>
+<p>This is what builds the GitBook site in the <code>gh-pages</code> branch. All you have to do is provide the proper settings!</p>
+<h2 id="step-1-open-your-repository-in-github">Step 1: Open Your Repository in GitHub</h2>
+<p>First, open up your repository from the <a href="YourOwnRepository.html">previous activity</a> in GitHub on the web.</p>
+<h2 id="step-2-update-permissions-for-github-actions">Step 2: Update Permissions for GitHub Actions</h2>
+<p>Next, the GitHub Action workflow needs the proper permissions in order to push the GitBook code to the repository. Follow these steps:</p>
+<ol>
+<li>Open the Settings of the repository from the top menu<br> <img src="Assets/RepositorySettings.png" alt=""></li>
+<li>On the left, under <strong>Code and automation</strong>, click the <strong>Actions</strong> dropdown</li>
+<li>Under <strong>Actions</strong>, select the <strong>General</strong> page<br> <img src="Assets/ActionsGeneralSettings.png" alt=""></li>
+<li>On that page, scroll down to the <strong>Workflow permissions</strong> section</li>
+<li>Select the <strong>Read and write permissions</strong> option</li>
+<li>Click the <strong>Save</strong> button<br> <img src="Assets/WorkflowReadWriteSave.png" alt=""></li>
+</ol>
+<p>Now the GitHub Action should be able to run successfully. It&apos;s time to test it.</p>
+<h2 id="step-3-update-the-content">Step 3: Update the Content</h2>
+<p>Make a nominal change to the codebase just to see if it&apos;s working.</p>
+<ol>
+<li>Open the <strong>AdditionalPage.md</strong> file from the GitHub Web interface<br> <img src="Assets/OpenAdditionalPage.png" alt=""></li>
+<li>When viewing the file, click the edit button in the upper right<br> <img src="Assets/EditAdditionalPage.png" alt=""></li>
+<li>In the editor, make a change in the file (like adding &quot;It&apos;s cool.&quot; at the end)</li>
+<li>Click the <strong>Commit changes</strong> button in the upper right<br> <img src="Assets/CommitAdditionalPage.png" alt=""></li>
+<li>In the pop-up that appears, click the <strong>Commit changes</strong> button<br> <img src="Assets/CommitCommit.png" alt=""></li>
+</ol>
+<blockquote>
+<p><em>Note: committing the changes through the GitHub Web interface will act as a <code>push</code> action to the <code>main</code> branch.</em></p>
+</blockquote>
+<p>Pushing this change will kick off the build process through GitHub Actions! Open the Actions of the repository from the top menu to check on the progress of the action:</p>
+<p><img src="Assets/CheckActionProgress.png" alt=""></p>
+<p>Once it completes successfully, all that&apos;s left is to make sure GitHub Pages is hooked up to the correct branch.</p>
+<h2 id="step-4-update-the-source-for-github-pages">Step 4: Update the Source for GitHub Pages</h2>
+<p>The final step is to set the source for GitHub Pages.</p>
+<ol>
+<li>Reopen the Settings of the repository from the top menu<br> <img src="Assets/RepositorySettings.png" alt=""></li>
+<li>On the left, under the <strong>Code and automation</strong>, click the <strong>Pages</strong> link<br> <img src="Assets/PagesLink.png" alt=""></li>
+<li>In the <strong>Build and deployment</strong> section, under <strong>Branch</strong>, select the <strong>None</strong> dropdown and choose <strong>gh-pages</strong><br> <img src="Assets/SelectGhPages.png" alt=""></li>
+<li>Click the <strong>Save</strong> button<br> <img src="Assets/SaveGhPages.png" alt=""></li>
+</ol>
+<p>That&apos;s it! Wait for a minute or so, then refresh the page. A box should appear:</p>
+<p><img src="Assets/SiteIsLive.png" alt=""></p>
+<p>Click the link, or the <strong>Visit site</strong> button, to visit your live GitBook!</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="YourOwnRepository.html" class="navigation navigation-prev " aria-label="Previous page: Your Own Repository">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="GitHubCurriculumExamples.html" class="navigation navigation-next " aria-label="Next page: GitHub Curriculum Examples">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Building & Publishing GitBooks","level":"1.3","depth":1,"next":{"title":"GitHub Curriculum Examples","level":"1.4","depth":1,"path":"GitHubCurriculumExamples.md","ref":"GitHubCurriculumExamples.md","articles":[]},"previous":{"title":"Your Own Repository","level":"1.2","depth":1,"path":"YourOwnRepository.md","ref":"YourOwnRepository.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Teaching (with) Git","gitbook":"*"},"file":{"path":"BuildingAndPublishingGitBooks.md","mtime":"2024-05-30T21:11:10.123Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-05-30T21:11:39.524Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
