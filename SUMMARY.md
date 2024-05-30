@@ -1,1 +1,6 @@
 - [Teaching (with) Git](README.md)
+- [Your Own Repository](YourOwnRepository.md)
+- [Building & Publishing GitBooks](BuildingAndPublishingGitBooks.md)
+- [GitHub Curriculum Examples](GitHubCurriculumExamples.md)
+- [Learning Git](LearningGit.md)
+- [Teaching Git](TeachingGit.md)
