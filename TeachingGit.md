@@ -2,7 +2,17 @@
 After [learning Git](LearningGit.md), here are some resources to teach it to students and use it in the classroom.
 
 ### Philosophy
-In order to successfully teach Git and GitHub to students, the material presented needs to be approachable and foundationally sound. In our programs, we attempt to demonstrate the _usefulness_ of Git, rather than teaching it in the abstract. Ideally, students should learn Git because it helps them, not because they have to. We provide ample guidance, especially surrounding the introductory activities. We focus on what _works_, not on the "right way" to do something. We try to follow standard branching workflows like [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development). We encourage students to [contribute to open source projects](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) (sometimes, in a [very simplified manner](https://github.com/firstcontributions/first-contributions?tab=readme-ov-file#first-contributions)).
+In order to successfully teach Git and GitHub to students, the material presented needs to be approachable and foundationally sound. Here are some of the tenets we follow:
+
+>In our programs, we attempt to demonstrate the _usefulness_ of Git, rather than teaching it in the abstract. Ideally, students should learn Git because it helps them, not because they have to.
+>
+>It helps to have a solid understanding of Git before trying to teach it. We are able to provide ample guidance, especially when complex situations arise.
+>
+>We focus on what _works_, not on the "right way" to do something - for example, sometimes the best way out of a sticky situation is to copy and paste everything, delete the local repository, and just start again!
+>
+>We try to follow standard branching workflows like [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development).
+>
+>We encourage students to [contribute to open source projects](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) (sometimes, in a [very simplified manner](https://github.com/firstcontributions/first-contributions?tab=readme-ov-file#first-contributions)).
 
 Overall, teaching Git can be a delicate process - but it is incredibly worthwhile, especially for long-term projects!
 
