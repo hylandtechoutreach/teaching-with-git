@@ -82,4 +82,4 @@ A couple of notes regarding GitHub Pages:
 - With the free version of GitHub, a repository _must_ be public for GitHub Pages to be available
 - Creating a simplified URL (e.g., `yourusername.github.io`) is possible by creating a repository with that name
 
-[Click here to read more about GitHub Pages](https://docs.github.com/en/pages/quickstart)
+[Click here to read more about GitHub Pages.](https://docs.github.com/en/pages/quickstart)
