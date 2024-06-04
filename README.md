@@ -7,9 +7,9 @@ _Joseph Maxwell . . . CSTA 2024_
 ## Activities
 Here are the links for each activity:
 
-- [Your Own Repository](YourOwnRepository.md)
-- [Markdown Tutorial](https://www.markdowntutorial.com/)
-- [Building & Publishing GitBooks](BuildingAndPublishingGitBooks.md)
+- [Activity 1: Your Own Repository](YourOwnRepository.md)
+- [Activity 2: Markdown Tutorial](https://www.markdowntutorial.com/)
+- [Activity 3: Building & Publishing GitBooks](BuildingAndPublishingGitBooks.md)
 
 ## GitHub Curriculum Examples
 [Click here for examples of lesson plans stored in GitHub.](GitHubCurriculumExamples.md)
