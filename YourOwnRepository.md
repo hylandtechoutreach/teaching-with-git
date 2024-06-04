@@ -1,4 +1,4 @@
-# Activity: Your Own Repository
+# Activity 1: Your Own Repository
 In this activity, create a GitHub repository to store a lesson plan. _Note: GitHub repositories are well-suited for storing **collections** of lesson plans, but for this activity, we'll store a single one._
 
 ## Step 1: Create a GitHub Account
