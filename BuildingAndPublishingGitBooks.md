@@ -1,15 +1,9 @@
-# Activity: Building & Publishing GitBooks
+# Activity 3: Building & Publishing GitBooks
 In this activity, turn your lesson plan GitHub repository into a full-fledged student-facing website! Make sure you already have [your own repository](YourOwnRepository.md) before you get started.
 
-### Lesson Plan Template Example
-The template from before already has its own live GitBook, built from its source!
+### Background
+The template from the previous activity already has its own live GitBook, built from its source! [This repository](https://github.com/hylandtechoutreach/lesson-plan-template) builds [this GitBook](https://hylandtechoutreach.github.io/lesson-plan-template/), and hosts it through GitHub Pages. If you used that template to start up your own repository, you should have everything you need to publish the book!
 
-- Template Repository: [https://github.com/hylandtechoutreach/lesson-plan-template](https://github.com/hylandtechoutreach/lesson-plan-template)
-- Live GitBook: [https://hylandtechoutreach.github.io/lesson-plan-template/](https://hylandtechoutreach.github.io/lesson-plan-template/)
-
-Using this template will make it easy to get your own GitBook up and running quickly.
-
-### GitHub Action Configuration
 This process is made possible by the [**.github/workflows/BuildGitBook.yml** file](https://github.com/hylandtechoutreach/lesson-plan-template/blob/main/.github/workflows/BuildGitBook.yml) from the template. That file, with that specific format in that specific location, automatically adds a GitHub Action to the repository. The action:
 
 - runs on every `push` event
@@ -17,7 +11,9 @@ This process is made possible by the [**.github/workflows/BuildGitBook.yml** fil
 - grabs the latest code
 - runs the `tuliren/publish-gitbook@v1.0.0` action
 
-This is what builds the GitBook site in the `gh-pages` branch. All you have to do is provide the proper settings!
+This is what builds the GitBook site in the `gh-pages` branch. All you have to do is provide the proper settings.
+
+Follow the steps below to complete the activity!
 
 ## Step 1: Open Your Repository in GitHub
 First, open up your repository from the [previous activity](YourOwnRepository.md) in GitHub on the web.
