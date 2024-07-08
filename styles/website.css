@@ -22,10 +22,27 @@ h2 {
 
 .markdown-section a {
   font-style: italic;
-  font-size: 1.1em;
 }
 
 .markdown-section img {
   border: 2px solid black;
   box-shadow: 0px 0px 6px 1px black;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.page-inner {
+  max-width: 900px;
+}
+
+.markdown-section h1 {
+  font-size: 1.8em;
+}
+
+.markdown-section h2 {
+  font-size: 1.6em;
+}
+
+.markdown-section h3 {
+  font-size: 1.4em;
 }
