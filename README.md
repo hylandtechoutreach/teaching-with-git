@@ -21,4 +21,4 @@ Here are the links for each activity:
 [Click here for resources designed to help you _teach_ Git.](TeachingGit.md)
 
 ## Connect
-Send an email to [joseph.maxwell@hyland.com](mailto:joseph.maxwell@hyland.com)!
+Send an email to [joseph.maxwell@hyland.com!](mailto:joseph.maxwell@hyland.com)
