@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+  font-family: "Director";
+  src: url("../Assets/Director-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Director", "SimSun", "monospace";
+}
+
 h2 {
   border-bottom: 1px solid #ddd;
 }
 
+.markdown-section a {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
 .markdown-section img {
   border: 2px solid black;
-  box-shadow: -2px 2px 6px 1px black;
+  box-shadow: 0px 0px 6px 1px black;
 }
