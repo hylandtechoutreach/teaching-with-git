@@ -1,5 +1,5 @@
 # Teaching (with) Git
-_Joseph Maxwell . . . CSTA 2024_
+_Joseph Maxwell . . . CSTA 2024 . . . [Session Link](https://conference.csteachers.org/event/f0c0e0a8-5ac1-4333-90c9-2eab9723af76/websitePage:03ec16c0-72ae-4baf-9e20-c727f880b8d1?session=08cd84f6-74ca-4f94-9151-b54464b5504f&shareLink=true)_
 
 ## Presentation Slides
 [Click here to access the slide deck for this session.](https://docs.google.com/presentation/d/1MptvHD1ItEi3oO5d4I2jX862irYrU5DvkjR7ordOz5M/edit?usp=sharing)
